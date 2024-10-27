@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-image: linear-gradient(rgba(68, 67, 67, 0.7),rgba(75, 65, 65, 0.7)), url(https://img.freepik.com/premium-vector/pink-mountain-with-purple-pink-mountains-background_205947-74.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding: 30px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 2.89rem;
+    font-weight: 500;
+    margin-left: -45px;
+}
+
+.menu a {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 35px;
+}
+
+.btn button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+.btn button:hover {
+    background-color: lightgrey;
+}
+
+.sec {
+    width: 90%;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sec h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    transform: translateY(-60px);
+    text-shadow: 3px 3px 6px lightgray;
+}
+
+.sec p {
+    font-size: 1.25rem;
+    transform: translateY(-15px);
+}
+
+.sec button {
+    background-color: lightgrey;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 530;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 50px;
+    transform: translateY(35px);
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.about p {
+    text-align: center;
+    font-size: 1rem;
+    transform: translateY(37px);
+}
+
+.row {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 17px;
+}
+
+.course-column {
+    flex-basis: 31%;
+    background: rgb(223, 216, 216);
+    border-radius: 10px;
+    margin-bottom: 15%;
+    padding: 49px 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.course-column h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    transform: translateY(15px);
+}
+
+.course-column p {
+    transform: translateY(17px);
+}
+
+.course-column:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+
+
